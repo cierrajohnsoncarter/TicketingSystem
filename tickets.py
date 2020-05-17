@@ -4,8 +4,6 @@ SERVICE_CHARGE = 2
 tickets_remaining = 100
 
 # Create a function to calculate the price
-
-
 def calculate_price(ticket_amount):
     return (ticket_amount * TICKET_PRICE) + SERVICE_CHARGE
 
